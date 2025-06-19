@@ -1,6 +1,7 @@
 
 #include <vector>
 #include <algorithm>
+#include <climits>
 #include "trip.hpp"
 
 int low_cost_trip(int n, int m, int **mat) {
