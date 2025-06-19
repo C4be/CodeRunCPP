@@ -14,6 +14,5 @@ int low_cost_trip(int n, int m, int **mat) {
             mat[i][j] += std::min(sy, sx);
         }
     }
-
     return mat[n - 1][m - 1];
 }
